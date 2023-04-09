@@ -1,5 +1,7 @@
 package com.example.CRUDSecuredApplication.Config;
 
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -14,6 +16,10 @@ public class AuthenticationService {
 	
 	private PasswordEncoder passwordEncoder;
 	
+	private JwtService jwtService;
+	
+	private AuthenticationManager authenticationManager;
+	
 	public AuthenticationResponse register(RegisterRequest request) {
 		User user = User.builder()
 			.firstname(request.getFirstname())
@@ -23,13 +29,27 @@ public class AuthenticationService {
 			.role(Role.USER)
 			.build();
 				
-			return null;	
-		
-		
+			userRepository.save(user);
+			var jwtToken = jwtService.generateToken(user);
+			return AuthenticationResponse.builder()
+					.token(jwtToken)
+					.build();
 	}
 
 	public AuthenticationResponse authenticate(AuthenticationRequest request) {
-		return null;
+		authenticationManager.authenticate(
+				new UsernamePasswordAuthenticationToken(
+						request.getEmail(),request.getPassword()
+						)
+				);
+		// getting this point means user is authenticated
+		
+		var user = userRepository.findByEmail(request.getEmail()).orElseThrow();
+		
+		var jwtToken = jwtService.generateToken(user);
+		return AuthenticationResponse.builder()
+				.token(jwtToken)
+				.build();
 	}
 
 }

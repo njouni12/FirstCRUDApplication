@@ -24,7 +24,7 @@ public class SecurityConfiguration {
 		http.csrf()
 		.disable()
 		.authorizeHttpRequests()
-		.requestMatchers("")
+		.requestMatchers("/auth/**") //allowing all methods in controller
 		.permitAll()
 		.anyRequest()
 		.authenticated()
