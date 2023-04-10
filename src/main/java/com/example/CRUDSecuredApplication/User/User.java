@@ -21,7 +21,7 @@ import lombok.NoArgsConstructor;
 @Data
 @Builder
 @NoArgsConstructor
-@AllArgsConstructor(staticName="build")
+@AllArgsConstructor
 @Entity
 @Table(name="Users")
 public class User implements UserDetails{ //always do this implementation when we have user class
