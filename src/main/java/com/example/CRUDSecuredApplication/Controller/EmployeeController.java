@@ -13,8 +13,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.CRUDSecuredApplication.Advice.EmployeeNotFoundException;
 import com.example.CRUDSecuredApplication.Entity.Employee;
 import com.example.CRUDSecuredApplication.Service.EmployeeService;
+import com.example.CRUDSecuredApplication.dto.EmployeeRequest;
+
+import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/employees")
@@ -23,17 +27,17 @@ public class EmployeeController {
 	EmployeeService employeeService;
 	
 	@PostMapping
-	public String addEmployee(@RequestBody Employee employee) {
+	public Employee addEmployee(@RequestBody @Valid EmployeeRequest employee) {
 		return employeeService.saveEmployee(employee);
 	}
 	
 	@GetMapping(path="/{id}")
-	public Optional<Employee> getEmployee(@PathVariable int id){
+	public Optional<Employee> getEmployee(@PathVariable int id) throws EmployeeNotFoundException{
 		return employeeService.getEmployee(id);
 	}
 	
 	@PutMapping
-	public String updateEmployee(@RequestBody Employee emp) {
+	public String updateEmployee(@RequestBody Employee emp) throws EmployeeNotFoundException {
 		return employeeService.updateEmployee(emp);
 	}
 	

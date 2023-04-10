@@ -6,8 +6,10 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.example.CRUDSecuredApplication.Advice.EmployeeNotFoundException;
 import com.example.CRUDSecuredApplication.Entity.Employee;
 import com.example.CRUDSecuredApplication.Repository.EmployeeRepository;
+import com.example.CRUDSecuredApplication.dto.EmployeeRequest;
 
 @Service
 public class EmployeeService {
@@ -15,22 +17,21 @@ public class EmployeeService {
 	@Autowired
 	EmployeeRepository employeeRepository;
 	
-	public String saveEmployee(Employee employee) {
-		Optional<Employee> exists = employeeRepository.findByName(employee.getName());
-		if(exists.isPresent()) {
-			return "Employee is already Exists";
-		}
-		else {
-			employeeRepository.save(employee);
-			return "Employee Added Successfully !";
+	public Employee saveEmployee(EmployeeRequest employee) {
+		Employee newEmployee = Employee.build(0, employee.getName(), employee.getAge());
+		return employeeRepository.save(newEmployee);
+	}
+	
+	public Optional<Employee> getEmployee(int id) throws EmployeeNotFoundException{
+		Optional<Employee> emp =  employeeRepository.findById(id);
+		if(emp.isPresent()) {
+			return employeeRepository.findById(id);
+		}else {
+			throw new EmployeeNotFoundException("User Not Found !");
 		}
 	}
 	
-	public Optional<Employee> getEmployee(int id) {
-		return employeeRepository.findById(id);
-	}
-	
-	public String updateEmployee(Employee employee) {
+	public String updateEmployee(Employee employee) throws EmployeeNotFoundException {
 		Optional<Employee> emp = employeeRepository.findById(employee.getId());
 		if(emp.isPresent()) {
 		Employee newEmployee = new Employee();
@@ -41,7 +42,7 @@ public class EmployeeService {
 		return "Updated Successfully ! ";
 		}
 		else {
-			return "No Employee with this ID ";
+			throw new EmployeeNotFoundException("Employee not found with this id !");
 		}
 	}
 	
