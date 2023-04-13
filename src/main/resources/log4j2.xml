@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Appenders>
+		<Console name="console" target="SYSTEM_OUT">
+			<PatternLayout pattern=" date is : %d  %n level is : %level %n message is : %msg %n end of message %n %n" />
+		</Console>
+		
+		<File name="file" fileName="logFile">
+			<PatternLayout pattern=" date is : %d  %n level is : %level %n message is : %msg %n end of message %n %n" />
+		</File>
+	</Appenders>
+	
+	<Loggers>
+		<Root level="info">
+			<AppenderRef ref="console" />
+			<AppenderRef ref="file"/>
+		</Root>
+	</Loggers>
+</Configuration>

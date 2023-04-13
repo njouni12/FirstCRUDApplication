@@ -2,7 +2,6 @@ package com.example.CRUDSecuredApplication.Service;
 
 import java.util.List;
 import java.util.Optional;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,6 +15,7 @@ public class EmployeeService {
 
 	@Autowired
 	EmployeeRepository employeeRepository;
+
 	
 	public Employee saveEmployee(EmployeeRequest employee) {
 		Employee newEmployee = Employee.build(0, employee.getName(), employee.getAge());
@@ -27,7 +27,7 @@ public class EmployeeService {
 		if(emp.isPresent()) {
 			return employeeRepository.findById(id);
 		}else {
-			throw new EmployeeNotFoundException("User Not Found !");
+			throw new EmployeeNotFoundException("User with id = "+id+" is not Found !");
 		}
 	}
 	
@@ -42,18 +42,18 @@ public class EmployeeService {
 		return "Updated Successfully ! ";
 		}
 		else {
-			throw new EmployeeNotFoundException("Employee not found with this id !");
+			throw new EmployeeNotFoundException("Employee not found with id = "+employee.getId()+" !");
 		}
 	}
 	
-	public String deleteEmployee(int id) {
+	public String deleteEmployee(int id) throws EmployeeNotFoundException{
 		Optional<Employee> emp = employeeRepository.findById(id);
 		if(emp.isPresent()) {
 			employeeRepository.deleteById(id);
 			return "Deleted Successfully ! ";
 		}
 		else {
-			return "Employee with id : " +id+ " doesn't exists ! ";
+			throw new EmployeeNotFoundException( "Employee with id : " +id+ " doesn't exists ! ");
 		}
 	}
 	

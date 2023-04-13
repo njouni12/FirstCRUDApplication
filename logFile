@@ -1,0 +1,115 @@
+ date is : 2023-04-13 14:29:15,751  
+ level is : INFO 
+ message is : HV000001: Hibernate Validator 8.0.0.Final 
+ end of message 
+ 
+ date is : 2023-04-13 14:29:16,003  
+ level is : INFO 
+ message is : Starting CrudSecuredApplication using Java 17.0.6 with PID 12680 (D:\Users\Nour\Desktop\CRUDSecuredApplication\target\classes started by Nour in D:\Users\Nour\Desktop\CRUDSecuredApplication) 
+ end of message 
+ 
+ date is : 2023-04-13 14:29:16,034  
+ level is : INFO 
+ message is : No active profile set, falling back to 1 default profile: "default" 
+ end of message 
+ 
+ date is : 2023-04-13 14:29:23,104  
+ level is : INFO 
+ message is : Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+ end of message 
+ 
+ date is : 2023-04-13 14:29:23,477  
+ level is : INFO 
+ message is : Finished Spring Data repository scanning in 327 ms. Found 1 JPA repository interfaces. 
+ end of message 
+ 
+ date is : 2023-04-13 14:29:28,126  
+ level is : INFO 
+ message is : Tomcat initialized with port(s): 8080 (http) 
+ end of message 
+ 
+ date is : 2023-04-13 14:29:28,189  
+ level is : INFO 
+ message is : Initializing ProtocolHandler ["http-nio-8080"] 
+ end of message 
+ 
+ date is : 2023-04-13 14:29:28,192  
+ level is : INFO 
+ message is : Starting service [Tomcat] 
+ end of message 
+ 
+ date is : 2023-04-13 14:29:28,193  
+ level is : INFO 
+ message is : Starting Servlet engine: [Apache Tomcat/10.1.7] 
+ end of message 
+ 
+ date is : 2023-04-13 14:29:29,018  
+ level is : INFO 
+ message is : Initializing Spring embedded WebApplicationContext 
+ end of message 
+ 
+ date is : 2023-04-13 14:29:29,030  
+ level is : INFO 
+ message is : Root WebApplicationContext: initialization completed in 12510 ms 
+ end of message 
+ 
+ date is : 2023-04-13 14:29:30,156  
+ level is : INFO 
+ message is : HHH000204: Processing PersistenceUnitInfo [name: default] 
+ end of message 
+ 
+ date is : 2023-04-13 14:29:30,498  
+ level is : INFO 
+ message is : HHH000412: Hibernate ORM core version 6.1.7.Final 
+ end of message 
+ 
+ date is : 2023-04-13 14:29:32,050  
+ level is : INFO 
+ message is : HikariPool-1 - Starting... 
+ end of message 
+ 
+ date is : 2023-04-13 14:29:32,334  
+ level is : INFO 
+ message is : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@54b44879 
+ end of message 
+ 
+ date is : 2023-04-13 14:29:32,339  
+ level is : INFO 
+ message is : HikariPool-1 - Start completed. 
+ end of message 
+ 
+ date is : 2023-04-13 14:29:32,580  
+ level is : INFO 
+ message is : HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect 
+ end of message 
+ 
+ date is : 2023-04-13 14:29:38,108  
+ level is : INFO 
+ message is : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+ end of message 
+ 
+ date is : 2023-04-13 14:29:38,151  
+ level is : INFO 
+ message is : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+ end of message 
+ 
+ date is : 2023-04-13 14:29:40,769  
+ level is : WARN 
+ message is : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+ end of message 
+ 
+ date is : 2023-04-13 14:29:42,832  
+ level is : INFO 
+ message is : Starting ProtocolHandler ["http-nio-8080"] 
+ end of message 
+ 
+ date is : 2023-04-13 14:29:43,137  
+ level is : INFO 
+ message is : Tomcat started on port(s): 8080 (http) with context path '' 
+ end of message 
+ 
+ date is : 2023-04-13 14:29:43,518  
+ level is : INFO 
+ message is : Started CrudSecuredApplication in 30.491 seconds (process running for 36.093) 
+ end of message 
+ 
