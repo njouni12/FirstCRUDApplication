@@ -1,8 +1,12 @@
 package com.example.CRUDSecuredApplication.Service;
 
+
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import com.example.CRUDSecuredApplication.Advice.EmployeeNotFoundException;
@@ -59,5 +63,18 @@ public class EmployeeService {
 	
 	public List<Employee> getAllEmployees(){
 		return employeeRepository.findAll();
+	}
+	
+	public List<Employee> findEmployeesWithSorting(String field){
+		return employeeRepository.findAll(Sort.by(Sort.Direction.ASC,field));
+	}
+	
+	public Page<Employee> findEmployeesWithPagination(int offset,int pageSize){
+		Page<Employee> employees =  employeeRepository.findAll(PageRequest.of(offset, pageSize));
+		return employees;
+	}
+	
+	public Page<Employee> findEmployeesBySortingAndPagination (int offset,int size,String field){
+		return employeeRepository.findAll(PageRequest.of(offset, size).withSort((Sort.by(field))));
 	}
 }

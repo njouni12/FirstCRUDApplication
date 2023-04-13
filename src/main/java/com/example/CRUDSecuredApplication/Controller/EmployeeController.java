@@ -1,9 +1,11 @@
 package com.example.CRUDSecuredApplication.Controller;
 
+
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -48,6 +50,22 @@ public class EmployeeController {
 	
 	@GetMapping("/all")
 	public List<Employee> getAll(){
+		
 		return employeeService.getAllEmployees();
+	}
+	
+	@GetMapping(path="/all/{field}")
+	public List<Employee> getAllBySorting(@PathVariable String field){
+		return employeeService.findEmployeesWithSorting(field);
+	}
+	
+	@GetMapping(path="/pagination/{offset}/{size}")
+	public Page<Employee> getAllByPagination(@PathVariable int offset,@PathVariable int size){
+		return employeeService.findEmployeesWithPagination(offset, size);
+	}
+	
+	@GetMapping(path="/PagWithSort/{offset}/{size}/{sort}")
+	public Page<Employee> getAllByBoth(@PathVariable int offset,@PathVariable int size,@PathVariable String sort){
+		return employeeService.findEmployeesBySortingAndPagination(offset, size, sort);
 	}
 }

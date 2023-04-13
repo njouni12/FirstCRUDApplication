@@ -113,3 +113,1618 @@
  message is : Started CrudSecuredApplication in 30.491 seconds (process running for 36.093) 
  end of message 
  
+ date is : 2023-04-13 17:02:52,586  
+ level is : INFO 
+ message is : HV000001: Hibernate Validator 8.0.0.Final 
+ end of message 
+ 
+ date is : 2023-04-13 17:02:53,339  
+ level is : INFO 
+ message is : Starting CrudSecuredApplication using Java 17.0.6 with PID 10440 (D:\Users\Nour\Desktop\CRUDSecuredApplication\target\classes started by Nour in D:\Users\Nour\Desktop\CRUDSecuredApplication) 
+ end of message 
+ 
+ date is : 2023-04-13 17:02:53,364  
+ level is : INFO 
+ message is : No active profile set, falling back to 1 default profile: "default" 
+ end of message 
+ 
+ date is : 2023-04-13 17:03:02,395  
+ level is : INFO 
+ message is : Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+ end of message 
+ 
+ date is : 2023-04-13 17:03:02,969  
+ level is : INFO 
+ message is : Finished Spring Data repository scanning in 428 ms. Found 1 JPA repository interfaces. 
+ end of message 
+ 
+ date is : 2023-04-13 17:03:08,589  
+ level is : INFO 
+ message is : Tomcat initialized with port(s): 8080 (http) 
+ end of message 
+ 
+ date is : 2023-04-13 17:03:08,644  
+ level is : INFO 
+ message is : Initializing ProtocolHandler ["http-nio-8080"] 
+ end of message 
+ 
+ date is : 2023-04-13 17:03:08,650  
+ level is : INFO 
+ message is : Starting service [Tomcat] 
+ end of message 
+ 
+ date is : 2023-04-13 17:03:08,652  
+ level is : INFO 
+ message is : Starting Servlet engine: [Apache Tomcat/10.1.7] 
+ end of message 
+ 
+ date is : 2023-04-13 17:03:09,788  
+ level is : INFO 
+ message is : Initializing Spring embedded WebApplicationContext 
+ end of message 
+ 
+ date is : 2023-04-13 17:03:09,803  
+ level is : INFO 
+ message is : Root WebApplicationContext: initialization completed in 15958 ms 
+ end of message 
+ 
+ date is : 2023-04-13 17:03:11,351  
+ level is : INFO 
+ message is : HHH000204: Processing PersistenceUnitInfo [name: default] 
+ end of message 
+ 
+ date is : 2023-04-13 17:03:12,019  
+ level is : INFO 
+ message is : HHH000412: Hibernate ORM core version 6.1.7.Final 
+ end of message 
+ 
+ date is : 2023-04-13 17:03:14,262  
+ level is : INFO 
+ message is : HikariPool-1 - Starting... 
+ end of message 
+ 
+ date is : 2023-04-13 17:03:14,918  
+ level is : INFO 
+ message is : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@44084713 
+ end of message 
+ 
+ date is : 2023-04-13 17:03:14,942  
+ level is : INFO 
+ message is : HikariPool-1 - Start completed. 
+ end of message 
+ 
+ date is : 2023-04-13 17:03:15,292  
+ level is : INFO 
+ message is : HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect 
+ end of message 
+ 
+ date is : 2023-04-13 17:03:21,135  
+ level is : INFO 
+ message is : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+ end of message 
+ 
+ date is : 2023-04-13 17:03:21,180  
+ level is : INFO 
+ message is : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+ end of message 
+ 
+ date is : 2023-04-13 17:03:34,437  
+ level is : WARN 
+ message is : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+ end of message 
+ 
+ date is : 2023-04-13 17:03:46,792  
+ level is : INFO 
+ message is : Starting ProtocolHandler ["http-nio-8080"] 
+ end of message 
+ 
+ date is : 2023-04-13 17:03:47,287  
+ level is : INFO 
+ message is : Tomcat started on port(s): 8080 (http) with context path '' 
+ end of message 
+ 
+ date is : 2023-04-13 17:03:47,931  
+ level is : INFO 
+ message is : Started CrudSecuredApplication in 58.175 seconds (process running for 64.155) 
+ end of message 
+ 
+ date is : 2023-04-13 17:06:45,705  
+ level is : INFO 
+ message is : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+ end of message 
+ 
+ date is : 2023-04-13 17:06:45,732  
+ level is : INFO 
+ message is : Initializing Servlet 'dispatcherServlet' 
+ end of message 
+ 
+ date is : 2023-04-13 17:06:45,751  
+ level is : INFO 
+ message is : Completed initialization in 16 ms 
+ end of message 
+ 
+ date is : 2023-04-13 17:38:23,993  
+ level is : INFO 
+ message is : HV000001: Hibernate Validator 8.0.0.Final 
+ end of message 
+ 
+ date is : 2023-04-13 17:38:24,794  
+ level is : INFO 
+ message is : Starting CrudSecuredApplication using Java 17.0.6 with PID 1472 (D:\Users\Nour\Desktop\CRUDSecuredApplication\target\classes started by Nour in D:\Users\Nour\Desktop\CRUDSecuredApplication) 
+ end of message 
+ 
+ date is : 2023-04-13 17:38:24,874  
+ level is : INFO 
+ message is : No active profile set, falling back to 1 default profile: "default" 
+ end of message 
+ 
+ date is : 2023-04-13 17:38:32,007  
+ level is : INFO 
+ message is : Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+ end of message 
+ 
+ date is : 2023-04-13 17:38:32,334  
+ level is : INFO 
+ message is : Finished Spring Data repository scanning in 287 ms. Found 1 JPA repository interfaces. 
+ end of message 
+ 
+ date is : 2023-04-13 17:38:36,479  
+ level is : INFO 
+ message is : Tomcat initialized with port(s): 8080 (http) 
+ end of message 
+ 
+ date is : 2023-04-13 17:38:36,538  
+ level is : INFO 
+ message is : Initializing ProtocolHandler ["http-nio-8080"] 
+ end of message 
+ 
+ date is : 2023-04-13 17:38:36,541  
+ level is : INFO 
+ message is : Starting service [Tomcat] 
+ end of message 
+ 
+ date is : 2023-04-13 17:38:36,545  
+ level is : INFO 
+ message is : Starting Servlet engine: [Apache Tomcat/10.1.7] 
+ end of message 
+ 
+ date is : 2023-04-13 17:38:37,669  
+ level is : INFO 
+ message is : Initializing Spring embedded WebApplicationContext 
+ end of message 
+ 
+ date is : 2023-04-13 17:38:37,680  
+ level is : INFO 
+ message is : Root WebApplicationContext: initialization completed in 11986 ms 
+ end of message 
+ 
+ date is : 2023-04-13 17:38:41,774  
+ level is : INFO 
+ message is : HHH000204: Processing PersistenceUnitInfo [name: default] 
+ end of message 
+ 
+ date is : 2023-04-13 17:38:42,114  
+ level is : INFO 
+ message is : HHH000412: Hibernate ORM core version 6.1.7.Final 
+ end of message 
+ 
+ date is : 2023-04-13 17:38:43,671  
+ level is : INFO 
+ message is : HikariPool-1 - Starting... 
+ end of message 
+ 
+ date is : 2023-04-13 17:38:44,084  
+ level is : INFO 
+ message is : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@4b544732 
+ end of message 
+ 
+ date is : 2023-04-13 17:38:44,089  
+ level is : INFO 
+ message is : HikariPool-1 - Start completed. 
+ end of message 
+ 
+ date is : 2023-04-13 17:38:44,605  
+ level is : INFO 
+ message is : HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect 
+ end of message 
+ 
+ date is : 2023-04-13 17:38:48,520  
+ level is : INFO 
+ message is : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+ end of message 
+ 
+ date is : 2023-04-13 17:38:48,558  
+ level is : INFO 
+ message is : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+ end of message 
+ 
+ date is : 2023-04-13 17:38:50,595  
+ level is : WARN 
+ message is : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+ end of message 
+ 
+ date is : 2023-04-13 17:38:52,263  
+ level is : INFO 
+ message is : Starting ProtocolHandler ["http-nio-8080"] 
+ end of message 
+ 
+ date is : 2023-04-13 17:38:52,518  
+ level is : INFO 
+ message is : Tomcat started on port(s): 8080 (http) with context path '' 
+ end of message 
+ 
+ date is : 2023-04-13 17:38:52,667  
+ level is : INFO 
+ message is : Started CrudSecuredApplication in 30.535 seconds (process running for 37.396) 
+ end of message 
+ 
+ date is : 2023-04-13 17:40:26,640  
+ level is : INFO 
+ message is : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+ end of message 
+ 
+ date is : 2023-04-13 17:40:26,641  
+ level is : INFO 
+ message is : Initializing Servlet 'dispatcherServlet' 
+ end of message 
+ 
+ date is : 2023-04-13 17:40:26,659  
+ level is : INFO 
+ message is : Completed initialization in 17 ms 
+ end of message 
+ 
+ date is : 2023-04-13 17:40:27,370  
+ level is : ERROR 
+ message is : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed: java.lang.Error: Unresolved compilation problem: 
+	The method getAllEmployees() in the type EmployeeService is not applicable for the arguments (Optional<Integer>, Optional<String>)
+] with root cause 
+ end of message 
+ 
+java.lang.Error: Unresolved compilation problem: 
+	The method getAllEmployees() in the type EmployeeService is not applicable for the arguments (Optional<Integer>, Optional<String>)
+
+	at com.example.CRUDSecuredApplication.Controller.EmployeeController.getAll(EmployeeController.java:57) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:537) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+ date is : 2023-04-13 17:42:47,860  
+ level is : INFO 
+ message is : HV000001: Hibernate Validator 8.0.0.Final 
+ end of message 
+ 
+ date is : 2023-04-13 17:42:48,379  
+ level is : INFO 
+ message is : Starting CrudSecuredApplication using Java 17.0.6 with PID 1304 (D:\Users\Nour\Desktop\CRUDSecuredApplication\target\classes started by Nour in D:\Users\Nour\Desktop\CRUDSecuredApplication) 
+ end of message 
+ 
+ date is : 2023-04-13 17:42:48,411  
+ level is : INFO 
+ message is : No active profile set, falling back to 1 default profile: "default" 
+ end of message 
+ 
+ date is : 2023-04-13 17:42:53,713  
+ level is : INFO 
+ message is : Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+ end of message 
+ 
+ date is : 2023-04-13 17:42:54,234  
+ level is : INFO 
+ message is : Finished Spring Data repository scanning in 444 ms. Found 1 JPA repository interfaces. 
+ end of message 
+ 
+ date is : 2023-04-13 17:42:59,837  
+ level is : INFO 
+ message is : Tomcat initialized with port(s): 8080 (http) 
+ end of message 
+ 
+ date is : 2023-04-13 17:42:59,877  
+ level is : INFO 
+ message is : Initializing ProtocolHandler ["http-nio-8080"] 
+ end of message 
+ 
+ date is : 2023-04-13 17:42:59,881  
+ level is : INFO 
+ message is : Starting service [Tomcat] 
+ end of message 
+ 
+ date is : 2023-04-13 17:42:59,884  
+ level is : INFO 
+ message is : Starting Servlet engine: [Apache Tomcat/10.1.7] 
+ end of message 
+ 
+ date is : 2023-04-13 17:43:01,989  
+ level is : INFO 
+ message is : Initializing Spring embedded WebApplicationContext 
+ end of message 
+ 
+ date is : 2023-04-13 17:43:02,002  
+ level is : INFO 
+ message is : Root WebApplicationContext: initialization completed in 13215 ms 
+ end of message 
+ 
+ date is : 2023-04-13 17:43:02,885  
+ level is : INFO 
+ message is : HHH000204: Processing PersistenceUnitInfo [name: default] 
+ end of message 
+ 
+ date is : 2023-04-13 17:43:03,386  
+ level is : INFO 
+ message is : HHH000412: Hibernate ORM core version 6.1.7.Final 
+ end of message 
+ 
+ date is : 2023-04-13 17:43:04,829  
+ level is : INFO 
+ message is : HikariPool-1 - Starting... 
+ end of message 
+ 
+ date is : 2023-04-13 17:43:05,215  
+ level is : INFO 
+ message is : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@6d8b7ea9 
+ end of message 
+ 
+ date is : 2023-04-13 17:43:05,227  
+ level is : INFO 
+ message is : HikariPool-1 - Start completed. 
+ end of message 
+ 
+ date is : 2023-04-13 17:43:05,548  
+ level is : INFO 
+ message is : HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect 
+ end of message 
+ 
+ date is : 2023-04-13 17:43:10,876  
+ level is : INFO 
+ message is : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+ end of message 
+ 
+ date is : 2023-04-13 17:43:10,914  
+ level is : INFO 
+ message is : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+ end of message 
+ 
+ date is : 2023-04-13 17:43:13,071  
+ level is : WARN 
+ message is : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+ end of message 
+ 
+ date is : 2023-04-13 17:43:15,408  
+ level is : INFO 
+ message is : Starting ProtocolHandler ["http-nio-8080"] 
+ end of message 
+ 
+ date is : 2023-04-13 17:43:15,510  
+ level is : INFO 
+ message is : Tomcat started on port(s): 8080 (http) with context path '' 
+ end of message 
+ 
+ date is : 2023-04-13 17:43:15,582  
+ level is : INFO 
+ message is : Started CrudSecuredApplication in 29.863 seconds (process running for 34.595) 
+ end of message 
+ 
+ date is : 2023-04-13 17:43:21,826  
+ level is : INFO 
+ message is : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+ end of message 
+ 
+ date is : 2023-04-13 17:43:21,828  
+ level is : INFO 
+ message is : Initializing Servlet 'dispatcherServlet' 
+ end of message 
+ 
+ date is : 2023-04-13 17:43:21,864  
+ level is : INFO 
+ message is : Completed initialization in 33 ms 
+ end of message 
+ 
+ date is : 2023-04-13 17:44:04,165  
+ level is : WARN 
+ message is : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported] 
+ end of message 
+ 
+ date is : 2023-04-13 18:05:39,769  
+ level is : INFO 
+ message is : HV000001: Hibernate Validator 8.0.0.Final 
+ end of message 
+ 
+ date is : 2023-04-13 18:05:40,401  
+ level is : INFO 
+ message is : Starting CrudSecuredApplication using Java 17.0.6 with PID 7316 (D:\Users\Nour\Desktop\CRUDSecuredApplication\target\classes started by Nour in D:\Users\Nour\Desktop\CRUDSecuredApplication) 
+ end of message 
+ 
+ date is : 2023-04-13 18:05:40,465  
+ level is : INFO 
+ message is : No active profile set, falling back to 1 default profile: "default" 
+ end of message 
+ 
+ date is : 2023-04-13 18:05:46,528  
+ level is : INFO 
+ message is : Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+ end of message 
+ 
+ date is : 2023-04-13 18:05:47,129  
+ level is : INFO 
+ message is : Finished Spring Data repository scanning in 546 ms. Found 1 JPA repository interfaces. 
+ end of message 
+ 
+ date is : 2023-04-13 18:05:52,903  
+ level is : INFO 
+ message is : Tomcat initialized with port(s): 8080 (http) 
+ end of message 
+ 
+ date is : 2023-04-13 18:05:52,958  
+ level is : INFO 
+ message is : Initializing ProtocolHandler ["http-nio-8080"] 
+ end of message 
+ 
+ date is : 2023-04-13 18:05:52,961  
+ level is : INFO 
+ message is : Starting service [Tomcat] 
+ end of message 
+ 
+ date is : 2023-04-13 18:05:52,962  
+ level is : INFO 
+ message is : Starting Servlet engine: [Apache Tomcat/10.1.7] 
+ end of message 
+ 
+ date is : 2023-04-13 18:05:53,532  
+ level is : INFO 
+ message is : Initializing Spring embedded WebApplicationContext 
+ end of message 
+ 
+ date is : 2023-04-13 18:05:53,542  
+ level is : INFO 
+ message is : Root WebApplicationContext: initialization completed in 12631 ms 
+ end of message 
+ 
+ date is : 2023-04-13 18:05:54,373  
+ level is : INFO 
+ message is : HHH000204: Processing PersistenceUnitInfo [name: default] 
+ end of message 
+ 
+ date is : 2023-04-13 18:05:54,846  
+ level is : INFO 
+ message is : HHH000412: Hibernate ORM core version 6.1.7.Final 
+ end of message 
+ 
+ date is : 2023-04-13 18:05:56,221  
+ level is : INFO 
+ message is : HikariPool-1 - Starting... 
+ end of message 
+ 
+ date is : 2023-04-13 18:05:56,578  
+ level is : INFO 
+ message is : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@274bae2c 
+ end of message 
+ 
+ date is : 2023-04-13 18:05:56,590  
+ level is : INFO 
+ message is : HikariPool-1 - Start completed. 
+ end of message 
+ 
+ date is : 2023-04-13 18:05:56,747  
+ level is : INFO 
+ message is : HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect 
+ end of message 
+ 
+ date is : 2023-04-13 18:06:00,848  
+ level is : INFO 
+ message is : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+ end of message 
+ 
+ date is : 2023-04-13 18:06:00,879  
+ level is : INFO 
+ message is : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+ end of message 
+ 
+ date is : 2023-04-13 18:06:02,733  
+ level is : WARN 
+ message is : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+ end of message 
+ 
+ date is : 2023-04-13 18:06:05,069  
+ level is : INFO 
+ message is : Starting ProtocolHandler ["http-nio-8080"] 
+ end of message 
+ 
+ date is : 2023-04-13 18:06:05,341  
+ level is : INFO 
+ message is : Tomcat started on port(s): 8080 (http) with context path '' 
+ end of message 
+ 
+ date is : 2023-04-13 18:06:05,404  
+ level is : INFO 
+ message is : Started CrudSecuredApplication in 27.84 seconds (process running for 32.72) 
+ end of message 
+ 
+ date is : 2023-04-13 18:06:20,185  
+ level is : INFO 
+ message is : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+ end of message 
+ 
+ date is : 2023-04-13 18:06:20,186  
+ level is : INFO 
+ message is : Initializing Servlet 'dispatcherServlet' 
+ end of message 
+ 
+ date is : 2023-04-13 18:06:20,201  
+ level is : INFO 
+ message is : Completed initialization in 13 ms 
+ end of message 
+ 
+ date is : 2023-04-13 18:06:20,604  
+ level is : WARN 
+ message is : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "name"] 
+ end of message 
+ 
+ date is : 2023-04-13 18:07:09,826  
+ level is : INFO 
+ message is : HV000001: Hibernate Validator 8.0.0.Final 
+ end of message 
+ 
+ date is : 2023-04-13 18:07:10,087  
+ level is : INFO 
+ message is : Starting CrudSecuredApplication using Java 17.0.6 with PID 7288 (D:\Users\Nour\Desktop\CRUDSecuredApplication\target\classes started by Nour in D:\Users\Nour\Desktop\CRUDSecuredApplication) 
+ end of message 
+ 
+ date is : 2023-04-13 18:07:10,176  
+ level is : INFO 
+ message is : No active profile set, falling back to 1 default profile: "default" 
+ end of message 
+ 
+ date is : 2023-04-13 18:07:15,086  
+ level is : INFO 
+ message is : Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+ end of message 
+ 
+ date is : 2023-04-13 18:07:15,410  
+ level is : INFO 
+ message is : Finished Spring Data repository scanning in 281 ms. Found 1 JPA repository interfaces. 
+ end of message 
+ 
+ date is : 2023-04-13 18:07:19,112  
+ level is : INFO 
+ message is : Tomcat initialized with port(s): 8080 (http) 
+ end of message 
+ 
+ date is : 2023-04-13 18:07:19,191  
+ level is : INFO 
+ message is : Initializing ProtocolHandler ["http-nio-8080"] 
+ end of message 
+ 
+ date is : 2023-04-13 18:07:19,195  
+ level is : INFO 
+ message is : Starting service [Tomcat] 
+ end of message 
+ 
+ date is : 2023-04-13 18:07:19,196  
+ level is : INFO 
+ message is : Starting Servlet engine: [Apache Tomcat/10.1.7] 
+ end of message 
+ 
+ date is : 2023-04-13 18:07:19,969  
+ level is : INFO 
+ message is : Initializing Spring embedded WebApplicationContext 
+ end of message 
+ 
+ date is : 2023-04-13 18:07:19,984  
+ level is : INFO 
+ message is : Root WebApplicationContext: initialization completed in 9275 ms 
+ end of message 
+ 
+ date is : 2023-04-13 18:07:21,456  
+ level is : INFO 
+ message is : HHH000204: Processing PersistenceUnitInfo [name: default] 
+ end of message 
+ 
+ date is : 2023-04-13 18:07:21,686  
+ level is : INFO 
+ message is : HHH000412: Hibernate ORM core version 6.1.7.Final 
+ end of message 
+ 
+ date is : 2023-04-13 18:07:22,935  
+ level is : INFO 
+ message is : HikariPool-1 - Starting... 
+ end of message 
+ 
+ date is : 2023-04-13 18:07:23,892  
+ level is : INFO 
+ message is : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@602298b 
+ end of message 
+ 
+ date is : 2023-04-13 18:07:23,897  
+ level is : INFO 
+ message is : HikariPool-1 - Start completed. 
+ end of message 
+ 
+ date is : 2023-04-13 18:07:24,069  
+ level is : INFO 
+ message is : HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect 
+ end of message 
+ 
+ date is : 2023-04-13 18:07:27,745  
+ level is : INFO 
+ message is : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+ end of message 
+ 
+ date is : 2023-04-13 18:07:27,783  
+ level is : INFO 
+ message is : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+ end of message 
+ 
+ date is : 2023-04-13 18:07:30,933  
+ level is : WARN 
+ message is : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+ end of message 
+ 
+ date is : 2023-04-13 18:07:33,122  
+ level is : INFO 
+ message is : Starting ProtocolHandler ["http-nio-8080"] 
+ end of message 
+ 
+ date is : 2023-04-13 18:07:33,237  
+ level is : INFO 
+ message is : Tomcat started on port(s): 8080 (http) with context path '' 
+ end of message 
+ 
+ date is : 2023-04-13 18:07:33,290  
+ level is : INFO 
+ message is : Started CrudSecuredApplication in 25.27 seconds (process running for 30.599) 
+ end of message 
+ 
+ date is : 2023-04-13 18:07:42,481  
+ level is : INFO 
+ message is : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+ end of message 
+ 
+ date is : 2023-04-13 18:07:42,482  
+ level is : INFO 
+ message is : Initializing Servlet 'dispatcherServlet' 
+ end of message 
+ 
+ date is : 2023-04-13 18:07:42,499  
+ level is : INFO 
+ message is : Completed initialization in 14 ms 
+ end of message 
+ 
+ date is : 2023-04-13 18:07:42,687  
+ level is : ERROR 
+ message is : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalStateException: Ambiguous handler methods mapped for '/employees/name': {public java.util.List com.example.CRUDSecuredApplication.Controller.EmployeeController.getAllBySorting(java.lang.String), public java.util.Optional com.example.CRUDSecuredApplication.Controller.EmployeeController.getEmployee(int) throws com.example.CRUDSecuredApplication.Advice.EmployeeNotFoundException}] with root cause 
+ end of message 
+ 
+java.lang.IllegalStateException: Ambiguous handler methods mapped for '/employees/name': {public java.util.List com.example.CRUDSecuredApplication.Controller.EmployeeController.getAllBySorting(java.lang.String), public java.util.Optional com.example.CRUDSecuredApplication.Controller.EmployeeController.getEmployee(int) throws com.example.CRUDSecuredApplication.Advice.EmployeeNotFoundException}
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:431) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:382) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:126) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:68) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:505) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1275) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:537) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+ date is : 2023-04-13 18:08:15,179  
+ level is : INFO 
+ message is : HV000001: Hibernate Validator 8.0.0.Final 
+ end of message 
+ 
+ date is : 2023-04-13 18:08:15,366  
+ level is : INFO 
+ message is : Starting CrudSecuredApplication using Java 17.0.6 with PID 8280 (D:\Users\Nour\Desktop\CRUDSecuredApplication\target\classes started by Nour in D:\Users\Nour\Desktop\CRUDSecuredApplication) 
+ end of message 
+ 
+ date is : 2023-04-13 18:08:15,443  
+ level is : INFO 
+ message is : No active profile set, falling back to 1 default profile: "default" 
+ end of message 
+ 
+ date is : 2023-04-13 18:08:21,070  
+ level is : INFO 
+ message is : Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+ end of message 
+ 
+ date is : 2023-04-13 18:08:21,359  
+ level is : INFO 
+ message is : Finished Spring Data repository scanning in 246 ms. Found 1 JPA repository interfaces. 
+ end of message 
+ 
+ date is : 2023-04-13 18:08:25,569  
+ level is : INFO 
+ message is : Tomcat initialized with port(s): 8080 (http) 
+ end of message 
+ 
+ date is : 2023-04-13 18:08:25,671  
+ level is : INFO 
+ message is : Initializing ProtocolHandler ["http-nio-8080"] 
+ end of message 
+ 
+ date is : 2023-04-13 18:08:25,681  
+ level is : INFO 
+ message is : Starting service [Tomcat] 
+ end of message 
+ 
+ date is : 2023-04-13 18:08:25,683  
+ level is : INFO 
+ message is : Starting Servlet engine: [Apache Tomcat/10.1.7] 
+ end of message 
+ 
+ date is : 2023-04-13 18:08:26,309  
+ level is : INFO 
+ message is : Initializing Spring embedded WebApplicationContext 
+ end of message 
+ 
+ date is : 2023-04-13 18:08:26,332  
+ level is : INFO 
+ message is : Root WebApplicationContext: initialization completed in 10388 ms 
+ end of message 
+ 
+ date is : 2023-04-13 18:08:27,365  
+ level is : INFO 
+ message is : HHH000204: Processing PersistenceUnitInfo [name: default] 
+ end of message 
+ 
+ date is : 2023-04-13 18:08:27,640  
+ level is : INFO 
+ message is : HHH000412: Hibernate ORM core version 6.1.7.Final 
+ end of message 
+ 
+ date is : 2023-04-13 18:08:29,262  
+ level is : INFO 
+ message is : HikariPool-1 - Starting... 
+ end of message 
+ 
+ date is : 2023-04-13 18:08:30,312  
+ level is : INFO 
+ message is : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@16c5b50a 
+ end of message 
+ 
+ date is : 2023-04-13 18:08:30,324  
+ level is : INFO 
+ message is : HikariPool-1 - Start completed. 
+ end of message 
+ 
+ date is : 2023-04-13 18:08:30,558  
+ level is : INFO 
+ message is : HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect 
+ end of message 
+ 
+ date is : 2023-04-13 18:08:34,434  
+ level is : INFO 
+ message is : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+ end of message 
+ 
+ date is : 2023-04-13 18:08:34,508  
+ level is : INFO 
+ message is : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+ end of message 
+ 
+ date is : 2023-04-13 18:08:36,940  
+ level is : WARN 
+ message is : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+ end of message 
+ 
+ date is : 2023-04-13 18:08:39,587  
+ level is : INFO 
+ message is : Starting ProtocolHandler ["http-nio-8080"] 
+ end of message 
+ 
+ date is : 2023-04-13 18:08:39,725  
+ level is : INFO 
+ message is : Tomcat started on port(s): 8080 (http) with context path '' 
+ end of message 
+ 
+ date is : 2023-04-13 18:08:39,787  
+ level is : INFO 
+ message is : Started CrudSecuredApplication in 26.717 seconds (process running for 31.358) 
+ end of message 
+ 
+ date is : 2023-04-13 18:08:46,081  
+ level is : INFO 
+ message is : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+ end of message 
+ 
+ date is : 2023-04-13 18:08:46,082  
+ level is : INFO 
+ message is : Initializing Servlet 'dispatcherServlet' 
+ end of message 
+ 
+ date is : 2023-04-13 18:08:46,096  
+ level is : INFO 
+ message is : Completed initialization in 12 ms 
+ end of message 
+ 
+ date is : 2023-04-13 18:08:46,235  
+ level is : ERROR 
+ message is : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalStateException: Ambiguous handler methods mapped for '/employees/name': {public java.util.Optional com.example.CRUDSecuredApplication.Controller.EmployeeController.getEmployee(int) throws com.example.CRUDSecuredApplication.Advice.EmployeeNotFoundException, public java.util.List com.example.CRUDSecuredApplication.Controller.EmployeeController.getAllBySorting(java.lang.String)}] with root cause 
+ end of message 
+ 
+java.lang.IllegalStateException: Ambiguous handler methods mapped for '/employees/name': {public java.util.Optional com.example.CRUDSecuredApplication.Controller.EmployeeController.getEmployee(int) throws com.example.CRUDSecuredApplication.Advice.EmployeeNotFoundException, public java.util.List com.example.CRUDSecuredApplication.Controller.EmployeeController.getAllBySorting(java.lang.String)}
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:431) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:382) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:126) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:68) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:505) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1275) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:537) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+ date is : 2023-04-13 18:09:22,489  
+ level is : INFO 
+ message is : HV000001: Hibernate Validator 8.0.0.Final 
+ end of message 
+ 
+ date is : 2023-04-13 18:09:22,784  
+ level is : INFO 
+ message is : Starting CrudSecuredApplication using Java 17.0.6 with PID 11148 (D:\Users\Nour\Desktop\CRUDSecuredApplication\target\classes started by Nour in D:\Users\Nour\Desktop\CRUDSecuredApplication) 
+ end of message 
+ 
+ date is : 2023-04-13 18:09:22,826  
+ level is : INFO 
+ message is : No active profile set, falling back to 1 default profile: "default" 
+ end of message 
+ 
+ date is : 2023-04-13 18:09:27,339  
+ level is : INFO 
+ message is : Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+ end of message 
+ 
+ date is : 2023-04-13 18:09:27,624  
+ level is : INFO 
+ message is : Finished Spring Data repository scanning in 227 ms. Found 1 JPA repository interfaces. 
+ end of message 
+ 
+ date is : 2023-04-13 18:09:31,004  
+ level is : INFO 
+ message is : Tomcat initialized with port(s): 8080 (http) 
+ end of message 
+ 
+ date is : 2023-04-13 18:09:31,057  
+ level is : INFO 
+ message is : Initializing ProtocolHandler ["http-nio-8080"] 
+ end of message 
+ 
+ date is : 2023-04-13 18:09:31,061  
+ level is : INFO 
+ message is : Starting service [Tomcat] 
+ end of message 
+ 
+ date is : 2023-04-13 18:09:31,062  
+ level is : INFO 
+ message is : Starting Servlet engine: [Apache Tomcat/10.1.7] 
+ end of message 
+ 
+ date is : 2023-04-13 18:09:31,622  
+ level is : INFO 
+ message is : Initializing Spring embedded WebApplicationContext 
+ end of message 
+ 
+ date is : 2023-04-13 18:09:31,637  
+ level is : INFO 
+ message is : Root WebApplicationContext: initialization completed in 8444 ms 
+ end of message 
+ 
+ date is : 2023-04-13 18:09:32,996  
+ level is : INFO 
+ message is : HHH000204: Processing PersistenceUnitInfo [name: default] 
+ end of message 
+ 
+ date is : 2023-04-13 18:09:33,401  
+ level is : INFO 
+ message is : HHH000412: Hibernate ORM core version 6.1.7.Final 
+ end of message 
+ 
+ date is : 2023-04-13 18:09:34,984  
+ level is : INFO 
+ message is : HikariPool-1 - Starting... 
+ end of message 
+ 
+ date is : 2023-04-13 18:09:35,290  
+ level is : INFO 
+ message is : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@16c5b50a 
+ end of message 
+ 
+ date is : 2023-04-13 18:09:35,295  
+ level is : INFO 
+ message is : HikariPool-1 - Start completed. 
+ end of message 
+ 
+ date is : 2023-04-13 18:09:35,507  
+ level is : INFO 
+ message is : HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect 
+ end of message 
+ 
+ date is : 2023-04-13 18:09:40,362  
+ level is : INFO 
+ message is : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+ end of message 
+ 
+ date is : 2023-04-13 18:09:40,427  
+ level is : INFO 
+ message is : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+ end of message 
+ 
+ date is : 2023-04-13 18:09:42,196  
+ level is : WARN 
+ message is : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+ end of message 
+ 
+ date is : 2023-04-13 18:09:44,060  
+ level is : INFO 
+ message is : Starting ProtocolHandler ["http-nio-8080"] 
+ end of message 
+ 
+ date is : 2023-04-13 18:09:44,146  
+ level is : INFO 
+ message is : Tomcat started on port(s): 8080 (http) with context path '' 
+ end of message 
+ 
+ date is : 2023-04-13 18:09:44,202  
+ level is : INFO 
+ message is : Started CrudSecuredApplication in 23.874 seconds (process running for 28.649) 
+ end of message 
+ 
+ date is : 2023-04-13 18:09:51,031  
+ level is : INFO 
+ message is : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+ end of message 
+ 
+ date is : 2023-04-13 18:09:51,032  
+ level is : INFO 
+ message is : Initializing Servlet 'dispatcherServlet' 
+ end of message 
+ 
+ date is : 2023-04-13 18:09:51,053  
+ level is : INFO 
+ message is : Completed initialization in 20 ms 
+ end of message 
+ 
+ date is : 2023-04-13 18:12:47,334  
+ level is : WARN 
+ message is : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported] 
+ end of message 
+ 
+ date is : 2023-04-13 18:22:19,811  
+ level is : INFO 
+ message is : HV000001: Hibernate Validator 8.0.0.Final 
+ end of message 
+ 
+ date is : 2023-04-13 18:22:20,538  
+ level is : INFO 
+ message is : Starting CrudSecuredApplication using Java 17.0.6 with PID 5236 (D:\Users\Nour\Desktop\CRUDSecuredApplication\target\classes started by Nour in D:\Users\Nour\Desktop\CRUDSecuredApplication) 
+ end of message 
+ 
+ date is : 2023-04-13 18:22:20,610  
+ level is : INFO 
+ message is : No active profile set, falling back to 1 default profile: "default" 
+ end of message 
+ 
+ date is : 2023-04-13 18:22:25,269  
+ level is : INFO 
+ message is : Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+ end of message 
+ 
+ date is : 2023-04-13 18:22:25,536  
+ level is : INFO 
+ message is : Finished Spring Data repository scanning in 228 ms. Found 1 JPA repository interfaces. 
+ end of message 
+ 
+ date is : 2023-04-13 18:22:28,778  
+ level is : INFO 
+ message is : Tomcat initialized with port(s): 8080 (http) 
+ end of message 
+ 
+ date is : 2023-04-13 18:22:28,834  
+ level is : INFO 
+ message is : Initializing ProtocolHandler ["http-nio-8080"] 
+ end of message 
+ 
+ date is : 2023-04-13 18:22:28,837  
+ level is : INFO 
+ message is : Starting service [Tomcat] 
+ end of message 
+ 
+ date is : 2023-04-13 18:22:28,838  
+ level is : INFO 
+ message is : Starting Servlet engine: [Apache Tomcat/10.1.7] 
+ end of message 
+ 
+ date is : 2023-04-13 18:22:29,821  
+ level is : INFO 
+ message is : Initializing Spring embedded WebApplicationContext 
+ end of message 
+ 
+ date is : 2023-04-13 18:22:29,862  
+ level is : INFO 
+ message is : Root WebApplicationContext: initialization completed in 8796 ms 
+ end of message 
+ 
+ date is : 2023-04-13 18:22:30,642  
+ level is : INFO 
+ message is : HHH000204: Processing PersistenceUnitInfo [name: default] 
+ end of message 
+ 
+ date is : 2023-04-13 18:22:31,051  
+ level is : INFO 
+ message is : HHH000412: Hibernate ORM core version 6.1.7.Final 
+ end of message 
+ 
+ date is : 2023-04-13 18:22:32,352  
+ level is : INFO 
+ message is : HikariPool-1 - Starting... 
+ end of message 
+ 
+ date is : 2023-04-13 18:22:32,811  
+ level is : INFO 
+ message is : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@44084713 
+ end of message 
+ 
+ date is : 2023-04-13 18:22:32,816  
+ level is : INFO 
+ message is : HikariPool-1 - Start completed. 
+ end of message 
+ 
+ date is : 2023-04-13 18:22:32,973  
+ level is : INFO 
+ message is : HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect 
+ end of message 
+ 
+ date is : 2023-04-13 18:22:36,993  
+ level is : INFO 
+ message is : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+ end of message 
+ 
+ date is : 2023-04-13 18:22:37,041  
+ level is : INFO 
+ message is : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+ end of message 
+ 
+ date is : 2023-04-13 18:22:39,021  
+ level is : WARN 
+ message is : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+ end of message 
+ 
+ date is : 2023-04-13 18:22:40,551  
+ level is : INFO 
+ message is : Starting ProtocolHandler ["http-nio-8080"] 
+ end of message 
+ 
+ date is : 2023-04-13 18:22:40,672  
+ level is : INFO 
+ message is : Tomcat started on port(s): 8080 (http) with context path '' 
+ end of message 
+ 
+ date is : 2023-04-13 18:22:40,722  
+ level is : INFO 
+ message is : Started CrudSecuredApplication in 22.849 seconds (process running for 27.611) 
+ end of message 
+ 
+ date is : 2023-04-13 18:23:17,312  
+ level is : INFO 
+ message is : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+ end of message 
+ 
+ date is : 2023-04-13 18:23:17,313  
+ level is : INFO 
+ message is : Initializing Servlet 'dispatcherServlet' 
+ end of message 
+ 
+ date is : 2023-04-13 18:23:17,328  
+ level is : INFO 
+ message is : Completed initialization in 6 ms 
+ end of message 
+ 
+ date is : 2023-04-13 18:27:08,085  
+ level is : INFO 
+ message is : HV000001: Hibernate Validator 8.0.0.Final 
+ end of message 
+ 
+ date is : 2023-04-13 18:27:08,622  
+ level is : INFO 
+ message is : Starting CrudSecuredApplication using Java 17.0.6 with PID 5596 (D:\Users\Nour\Desktop\CRUDSecuredApplication\target\classes started by Nour in D:\Users\Nour\Desktop\CRUDSecuredApplication) 
+ end of message 
+ 
+ date is : 2023-04-13 18:27:08,691  
+ level is : INFO 
+ message is : No active profile set, falling back to 1 default profile: "default" 
+ end of message 
+ 
+ date is : 2023-04-13 18:27:13,519  
+ level is : INFO 
+ message is : Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+ end of message 
+ 
+ date is : 2023-04-13 18:27:13,818  
+ level is : INFO 
+ message is : Finished Spring Data repository scanning in 255 ms. Found 1 JPA repository interfaces. 
+ end of message 
+ 
+ date is : 2023-04-13 18:27:19,053  
+ level is : INFO 
+ message is : Tomcat initialized with port(s): 8080 (http) 
+ end of message 
+ 
+ date is : 2023-04-13 18:27:19,098  
+ level is : INFO 
+ message is : Initializing ProtocolHandler ["http-nio-8080"] 
+ end of message 
+ 
+ date is : 2023-04-13 18:27:19,103  
+ level is : INFO 
+ message is : Starting service [Tomcat] 
+ end of message 
+ 
+ date is : 2023-04-13 18:27:19,104  
+ level is : INFO 
+ message is : Starting Servlet engine: [Apache Tomcat/10.1.7] 
+ end of message 
+ 
+ date is : 2023-04-13 18:27:19,683  
+ level is : INFO 
+ message is : Initializing Spring embedded WebApplicationContext 
+ end of message 
+ 
+ date is : 2023-04-13 18:27:19,696  
+ level is : INFO 
+ message is : Root WebApplicationContext: initialization completed in 10472 ms 
+ end of message 
+ 
+ date is : 2023-04-13 18:27:20,600  
+ level is : INFO 
+ message is : HHH000204: Processing PersistenceUnitInfo [name: default] 
+ end of message 
+ 
+ date is : 2023-04-13 18:27:20,858  
+ level is : INFO 
+ message is : HHH000412: Hibernate ORM core version 6.1.7.Final 
+ end of message 
+ 
+ date is : 2023-04-13 18:27:22,483  
+ level is : INFO 
+ message is : HikariPool-1 - Starting... 
+ end of message 
+ 
+ date is : 2023-04-13 18:27:22,881  
+ level is : INFO 
+ message is : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@4b544732 
+ end of message 
+ 
+ date is : 2023-04-13 18:27:22,887  
+ level is : INFO 
+ message is : HikariPool-1 - Start completed. 
+ end of message 
+ 
+ date is : 2023-04-13 18:27:23,025  
+ level is : INFO 
+ message is : HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect 
+ end of message 
+ 
+ date is : 2023-04-13 18:27:26,969  
+ level is : INFO 
+ message is : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+ end of message 
+ 
+ date is : 2023-04-13 18:27:27,009  
+ level is : INFO 
+ message is : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+ end of message 
+ 
+ date is : 2023-04-13 18:27:29,269  
+ level is : WARN 
+ message is : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+ end of message 
+ 
+ date is : 2023-04-13 18:27:31,292  
+ level is : INFO 
+ message is : Starting ProtocolHandler ["http-nio-8080"] 
+ end of message 
+ 
+ date is : 2023-04-13 18:27:31,403  
+ level is : INFO 
+ message is : Tomcat started on port(s): 8080 (http) with context path '' 
+ end of message 
+ 
+ date is : 2023-04-13 18:27:31,455  
+ level is : INFO 
+ message is : Started CrudSecuredApplication in 25.325 seconds (process running for 29.741) 
+ end of message 
+ 
+ date is : 2023-04-13 18:27:42,179  
+ level is : INFO 
+ message is : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+ end of message 
+ 
+ date is : 2023-04-13 18:27:42,192  
+ level is : INFO 
+ message is : Initializing Servlet 'dispatcherServlet' 
+ end of message 
+ 
+ date is : 2023-04-13 18:27:42,214  
+ level is : INFO 
+ message is : Completed initialization in 19 ms 
+ end of message 
+ 
+ date is : 2023-04-13 18:35:03,484  
+ level is : INFO 
+ message is : HV000001: Hibernate Validator 8.0.0.Final 
+ end of message 
+ 
+ date is : 2023-04-13 18:35:04,074  
+ level is : INFO 
+ message is : Starting CrudSecuredApplication using Java 17.0.6 with PID 1704 (D:\Users\Nour\Desktop\CRUDSecuredApplication\target\classes started by Nour in D:\Users\Nour\Desktop\CRUDSecuredApplication) 
+ end of message 
+ 
+ date is : 2023-04-13 18:35:04,134  
+ level is : INFO 
+ message is : No active profile set, falling back to 1 default profile: "default" 
+ end of message 
+ 
+ date is : 2023-04-13 18:35:08,814  
+ level is : INFO 
+ message is : Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+ end of message 
+ 
+ date is : 2023-04-13 18:35:09,329  
+ level is : INFO 
+ message is : Finished Spring Data repository scanning in 406 ms. Found 1 JPA repository interfaces. 
+ end of message 
+ 
+ date is : 2023-04-13 18:35:12,551  
+ level is : INFO 
+ message is : Tomcat initialized with port(s): 8080 (http) 
+ end of message 
+ 
+ date is : 2023-04-13 18:35:12,606  
+ level is : INFO 
+ message is : Initializing ProtocolHandler ["http-nio-8080"] 
+ end of message 
+ 
+ date is : 2023-04-13 18:35:12,610  
+ level is : INFO 
+ message is : Starting service [Tomcat] 
+ end of message 
+ 
+ date is : 2023-04-13 18:35:12,611  
+ level is : INFO 
+ message is : Starting Servlet engine: [Apache Tomcat/10.1.7] 
+ end of message 
+ 
+ date is : 2023-04-13 18:35:14,222  
+ level is : INFO 
+ message is : Initializing Spring embedded WebApplicationContext 
+ end of message 
+ 
+ date is : 2023-04-13 18:35:14,237  
+ level is : INFO 
+ message is : Root WebApplicationContext: initialization completed in 9755 ms 
+ end of message 
+ 
+ date is : 2023-04-13 18:35:14,978  
+ level is : INFO 
+ message is : HHH000204: Processing PersistenceUnitInfo [name: default] 
+ end of message 
+ 
+ date is : 2023-04-13 18:35:15,571  
+ level is : INFO 
+ message is : HHH000412: Hibernate ORM core version 6.1.7.Final 
+ end of message 
+ 
+ date is : 2023-04-13 18:35:16,853  
+ level is : INFO 
+ message is : HikariPool-1 - Starting... 
+ end of message 
+ 
+ date is : 2023-04-13 18:35:17,171  
+ level is : INFO 
+ message is : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@4a2e1e52 
+ end of message 
+ 
+ date is : 2023-04-13 18:35:17,180  
+ level is : INFO 
+ message is : HikariPool-1 - Start completed. 
+ end of message 
+ 
+ date is : 2023-04-13 18:35:17,332  
+ level is : INFO 
+ message is : HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect 
+ end of message 
+ 
+ date is : 2023-04-13 18:35:21,148  
+ level is : INFO 
+ message is : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+ end of message 
+ 
+ date is : 2023-04-13 18:35:21,183  
+ level is : INFO 
+ message is : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+ end of message 
+ 
+ date is : 2023-04-13 18:35:25,731  
+ level is : WARN 
+ message is : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+ end of message 
+ 
+ date is : 2023-04-13 18:35:27,710  
+ level is : INFO 
+ message is : Starting ProtocolHandler ["http-nio-8080"] 
+ end of message 
+ 
+ date is : 2023-04-13 18:35:27,802  
+ level is : INFO 
+ message is : Tomcat started on port(s): 8080 (http) with context path '' 
+ end of message 
+ 
+ date is : 2023-04-13 18:35:27,852  
+ level is : INFO 
+ message is : Started CrudSecuredApplication in 26.305 seconds (process running for 31.49) 
+ end of message 
+ 
+ date is : 2023-04-13 18:36:44,734  
+ level is : INFO 
+ message is : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+ end of message 
+ 
+ date is : 2023-04-13 18:36:44,735  
+ level is : INFO 
+ message is : Initializing Servlet 'dispatcherServlet' 
+ end of message 
+ 
+ date is : 2023-04-13 18:36:44,751  
+ level is : INFO 
+ message is : Completed initialization in 15 ms 
+ end of message 
+ 
+ date is : 2023-04-13 18:37:30,536  
+ level is : WARN 
+ message is : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'field' for method parameter type String is not present] 
+ end of message 
+ 
+ date is : 2023-04-13 18:38:14,053  
+ level is : INFO 
+ message is : HV000001: Hibernate Validator 8.0.0.Final 
+ end of message 
+ 
+ date is : 2023-04-13 18:38:14,275  
+ level is : INFO 
+ message is : Starting CrudSecuredApplication using Java 17.0.6 with PID 13240 (D:\Users\Nour\Desktop\CRUDSecuredApplication\target\classes started by Nour in D:\Users\Nour\Desktop\CRUDSecuredApplication) 
+ end of message 
+ 
+ date is : 2023-04-13 18:38:14,362  
+ level is : INFO 
+ message is : No active profile set, falling back to 1 default profile: "default" 
+ end of message 
+ 
+ date is : 2023-04-13 18:38:18,889  
+ level is : INFO 
+ message is : Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+ end of message 
+ 
+ date is : 2023-04-13 18:38:19,320  
+ level is : INFO 
+ message is : Finished Spring Data repository scanning in 390 ms. Found 1 JPA repository interfaces. 
+ end of message 
+ 
+ date is : 2023-04-13 18:38:22,872  
+ level is : INFO 
+ message is : Tomcat initialized with port(s): 8080 (http) 
+ end of message 
+ 
+ date is : 2023-04-13 18:38:22,941  
+ level is : INFO 
+ message is : Initializing ProtocolHandler ["http-nio-8080"] 
+ end of message 
+ 
+ date is : 2023-04-13 18:38:22,948  
+ level is : INFO 
+ message is : Starting service [Tomcat] 
+ end of message 
+ 
+ date is : 2023-04-13 18:38:22,949  
+ level is : INFO 
+ message is : Starting Servlet engine: [Apache Tomcat/10.1.7] 
+ end of message 
+ 
+ date is : 2023-04-13 18:38:23,879  
+ level is : INFO 
+ message is : Initializing Spring embedded WebApplicationContext 
+ end of message 
+ 
+ date is : 2023-04-13 18:38:23,887  
+ level is : INFO 
+ message is : Root WebApplicationContext: initialization completed in 9122 ms 
+ end of message 
+ 
+ date is : 2023-04-13 18:38:25,926  
+ level is : INFO 
+ message is : HHH000204: Processing PersistenceUnitInfo [name: default] 
+ end of message 
+ 
+ date is : 2023-04-13 18:38:26,166  
+ level is : INFO 
+ message is : HHH000412: Hibernate ORM core version 6.1.7.Final 
+ end of message 
+ 
+ date is : 2023-04-13 18:38:27,542  
+ level is : INFO 
+ message is : HikariPool-1 - Starting... 
+ end of message 
+ 
+ date is : 2023-04-13 18:38:28,380  
+ level is : INFO 
+ message is : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@4f8659d0 
+ end of message 
+ 
+ date is : 2023-04-13 18:38:28,394  
+ level is : INFO 
+ message is : HikariPool-1 - Start completed. 
+ end of message 
+ 
+ date is : 2023-04-13 18:38:28,602  
+ level is : INFO 
+ message is : HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect 
+ end of message 
+ 
+ date is : 2023-04-13 18:38:33,350  
+ level is : INFO 
+ message is : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+ end of message 
+ 
+ date is : 2023-04-13 18:38:33,396  
+ level is : INFO 
+ message is : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+ end of message 
+ 
+ date is : 2023-04-13 18:38:36,706  
+ level is : WARN 
+ message is : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+ end of message 
+ 
+ date is : 2023-04-13 18:38:38,866  
+ level is : INFO 
+ message is : Starting ProtocolHandler ["http-nio-8080"] 
+ end of message 
+ 
+ date is : 2023-04-13 18:38:39,097  
+ level is : INFO 
+ message is : Tomcat started on port(s): 8080 (http) with context path '' 
+ end of message 
+ 
+ date is : 2023-04-13 18:38:39,328  
+ level is : INFO 
+ message is : Started CrudSecuredApplication in 27.483 seconds (process running for 31.76) 
+ end of message 
+ 
+ date is : 2023-04-13 18:38:45,348  
+ level is : INFO 
+ message is : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+ end of message 
+ 
+ date is : 2023-04-13 18:38:45,349  
+ level is : INFO 
+ message is : Initializing Servlet 'dispatcherServlet' 
+ end of message 
+ 
+ date is : 2023-04-13 18:38:45,363  
+ level is : INFO 
+ message is : Completed initialization in 13 ms 
+ end of message 
+ 
